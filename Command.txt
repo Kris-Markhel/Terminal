@@ -1,3 +1,13 @@
 cd
 mkdir
 pvd
+ls -l
+ls -la
+rm
+rm -r
+touch
+history
+vim
+explorer .
+
+

@@ -1,0 +1,277 @@
+ 
+  227  mkdir d1
+  228  cd d1
+  229  cd a1 a2 a3
+  230  mkdir a1 a2 a3
+  231  cd a1
+  232  touch 1.txt 2.txt 3.txt 1.json 2.json
+  233  ls -RA
+  234  ls -la
+  235  mkdir c1 c2 c3
+  236  ls
+  237  cat >>1.txt
+  238  cat 1.txt
+  239  cd ..
+  240  ls
+  241  cd d1
+  242  cd a1
+  243  mv 1.txt c1
+  244  mv 2.txt c1
+  245  cp 1.json c1
+  246  cp 2.json c1
+  247   ls c1
+  248  find . 3.txt
+  249  find . -name 3.txt
+  250  cd a1
+  251  cd c1
+  252  ls -RA
+  253  grep 1111 2.txt
+  254  cat 2.txt
+  255  cat 1.txt
+  256  cat >> 1.txt 
+  257  cat 1.txt
+  258  grep kristina 1.txt
+  259  head 1.txt
+  260  tail 1.txt
+  261  less  1.txt
+  262  date
+  263  hystory >> hist.txt
+  264  history
+  265  history >> history.txt
+  266  cat history
+  267  cat history.txt
+  268  git add .
+  269  cd Terminal
+  270  cd ..
+  271  cd ..
+  272  cd ..
+  273  ls -RA
+  274  ls -l
+  275  git add .
+  276  git commit -m "add file history.txt"
+  277  git push
+  278  git status
+  279  cd d1/a1/c1
+  280  mv history.txt a1/history.txt
+  281  mv history.txt a1
+  282  mv a1 history.txt
+  283  cd ..
+  284  cd ..
+  285  cd ..
+  286  ls
+  287  cat history.txt
+  288  rm -r d1
+  289  rm Command
+  290  ls
+  291  rm Command.txt
+  292  ls
+  293  mv history.txt History.txt
+  294  git add .
+  295  git add
+  296  git add .
+  297  git commit -m "delete file" 
+  298  git push
+  299  git status
+  300  #!/bin/bash
+  301  echo "сегодня " `date`
+  302  echo -e "\n введите путь к директории:"
+  303  read path_to
+  304  echo -e "\n ваша директория содержит файлы и папки:"
+  305  ls $path_to
+  306  #!/bin/bash
+  307  echo "сегодня " `date`
+  308  echo -e "\n введите путь к директории:"
+  309  read path_to
+  310  echo -e "\n ваша директория содержит файлы и папки:"
+  311  ls $path_to
+  312  ps
+  313  pwd
+  314  which bash
+  315  #!/Pavel@DESKTOP-9K5EB3U MINGW64 /d/TESTING/33group/d1
+  316  vi show_all.sh
+  317  ls
+  318  vi show_all.sh
+  319  vi show_all.sh
+  320  echo "good job"
+  321  pwd
+  322  cd ~/te
+  323  exit
+  324  exit
+  325  vim script.sh
+  326  wich
+  327   bash
+  328   sh
+  329  which bash
+  330  vimn script.sh
+  331  vim script.sh
+  332  cat script.sh
+  333  chmod +x script.sh
+  334  chmod +x script.sh./ script.sh
+  335  chmod +x script.sh
+  336  ./script.sh
+  337  chmod +x script.sh
+  338  ./script.sh
+  339  cat script.sh
+  340  which bash
+  341  bash ./script.sh
+  342  ./script.sh
+  343  chmod +x script.sh
+  344  git add .
+  345  git commit -m "add first script"
+  346  git push
+  347  git status
+  348  mkdir d1
+  349  wich bash
+  350  which bash
+  351  vim script.sh
+  352  bash ./script.sh
+  353  bash ./script.sh
+  354  vim script.sh
+  355  vim History.txt
+  356  cat History.txt
+  357  pwd
+  358  ls -RA
+  359  ls -l
+  360  rm -r d1
+  361  git add .
+  362  git commit -m "add file script.sh and change file History.txt
+  363  git commit -m "add file script.sh and change file History.txt"
+  364  git push
+  365  exit
+  366  git status
+  367  wq
+  368  ls -l
+  369  git status
+  370  git commit -m "add file script.sh and change file History.txt"
+  371  git push
+  372  git status
+  373  mkdir dir_1
+  374  cd dir_1
+  375  mkdir inner_dir_1
+  376  pwd
+  377  touch tf_1.txt
+  378  cat >> tf_2.txt
+  379  cd dir_1/inner_dir_1
+  380  cd dir_1
+  381  cd inner_dir_1
+  382  cat >> tf_3.txt 
+  383  cat >> tf_3.txt 
+  384  cat tf_3.txt
+  385  cat >> tf_3.txt 
+  386  cat >> tf_3.txt 
+  387  cat tf_3.txt 
+  388  cd ..
+  389  cat >> tf_2.txt
+  390  cd ..
+  391  rm -r dir_1
+  392  mkdir dir_1
+  393  cd dir_1
+  394  mkdir inner_dir_1
+  395  pwd
+  396  touch tf_1.txt
+  397  cat >> tf_2.txt
+  398  cat tf_2.txt
+  399  cd inner_dir_1
+  400  cat >> tf_3.txt
+  401  cat tf_3.txt
+  402  cat >> tf_3.txt
+  403  cat tf_3.txt
+  404  cd inner_dir_1
+  405  cat tf_3
+  406  cat tf_3.txt
+  407  cat >> tf_3.txt
+  408  cat tf_3.txt
+  409  cat >> tf_3.txt
+  410  cat tf_3.txt
+  411  vim tf_3.txt
+  412  cat tf_3.txt
+  413  cd ..
+  414  cat >> tf_2.txt
+  415  cat tf_2.txt
+  416  cat >> tf_3.txt
+  417  cat tf_3.txt
+  418  ls -l
+  419  cd inner_dir_1
+  420  cat tf_3.txt
+  421  cat >> tf_3.txt
+  422  cat  tf_3.txt
+  423  vim tf_3.txt
+  424  cat  tf_3.txt
+  425  cd ..
+  426  cat tf_2.txt
+  427  cat >> tf_2.txt
+  428  cat tf_2.txt
+  429  vim tf_2.txt
+  430  cat tf_2.txt
+  431  cat > tf_4 
+  432  mv tf_4 tf_4.txt
+  433  ls -l
+  434  cat > tf_4.txt
+  435  cat tf_4.txt
+  436  cat > tf_4.txt
+  437  cat  tf_4.txt
+  438  cat > tF_5.txt
+  439  cat tF_5.txt
+  440  cat >> tF_5.txt
+  441  cat tF_5.txt
+  442  ls -l
+  443  cat /d/TESTING/33group/GitHub/Terminal/dir_1/inner_dir_1 tf_3.txt
+  444  cat /dir_1/inner_dir_1 tf_3.txt
+  445  find $(pwd) -name tf_4.txt
+  446  history
+  447  cd inner_dir
+  448  cd inner_dir_1
+  449  cat tf_3.txt
+  450  cd ..
+  451  cat > tf_4.txt
+  452  cat > tf_4.txt
+  453  cat tf_4.txt
+  454  find $(pwd) -name "*tf*"
+  455  find $(pwd) -name -i "*tf*"
+  456  find -i $(pwd) -name "*tf*"
+  457  find $(pwd) -i -name "*tf*"
+  458  find -name "*tf*"
+  459  find $(pwd) -i -name "*tf*"
+  460  find $(pwd) -name "*tf*
+  461  find $(pwd) -name "*tf*"
+  462  find (pwd) -name "*tf*"
+  463  find $(pwd) -iname "*tf*"
+  464  cd dir_1
+  465  grep -R sec dir_1
+  466  cd ..
+  467  grep -R sec dir_1
+  468  grep sec dir_1
+  469  grep -R sec dir_1
+  470  grep -R -i sec dir_1
+  471  grep -R -i " sec " dir_1
+  472  grep -R second dir_1
+  473  grep -R -i second dir_1
+  474  grep -r second 
+  475  grep -R second dir_1
+  476  grep -r -v second 
+  477  grep -R -v second dir_1
+  478  cd dir_1
+  479  tail tF_5.txt
+  480  tail -n 4 tF_5.txt
+  481  head -n 4 tF_5.txt
+  482  git status
+  483  git add ..
+  484  git commit -m "add new file"
+  485  git push
+  486  cd ..
+  487  ls -la
+  488  cat History.txt
+  489  mw History.txt HW Linux terminal_1
+  490  mv History.txt HW Linux terminal_1
+  491  mv History.txt HW Linux terminal_1.txt
+  492  mv History.txt HW_Linux_terminal_1.txt
+  493  git add ..
+  494  git commit -m "renane file History.txt"
+  495  git push
+  496  git ststus
+  497  git status
+  498  git add HW_Linux_terminal_1.txt
+  499  git commit -m "remame file History.txt"
+  500  git push
+  501  history
+  502  history >> HW_2.txt
